@@ -1,0 +1,22 @@
+{
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/Source",
+        "${VULKAN_SDK}/Include",
+        "${workspaceFolder}/Vendor/glm",
+        "${workspaceFolder}/Vendor/spdlog/include",
+        "${workspaceFolder}/Vendor/SPIRV-Reflect",
+        "${workspaceFolder}/Vendor/stb",
+        "${workspaceFolder}/Vendor/entt/src",
+        "${workspaceFolder}/Vendor/tracy/public"
+    ],
+    "C_Cpp.default.defines": [
+        "PLATFORM_WINDOWS",
+        "DEBUG",
+        "VULKAN_VALIDATION_LAYERS"
+    ],
+    "C_Cpp.default.cppStandard": "c++23",
+    "C_Cpp.autoAddFileAssociations": false,
+    "search.exclude": {
+        "**/Vendor": true,
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run",
+            "program": "${workspaceFolder}/Build/Voxadion.exe",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "cwd":"${workspaceFolder}",
+            "preLaunchTask": "Build",
+            "logging": {
+                "moduleLoad": false
+            }
+        }
+    ]    
+}

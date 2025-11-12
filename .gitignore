@@ -1,0 +1,19 @@
+# VSCode stuff
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Build stuff
+Build
+Intermediate
+*.spv
+*.dds
+*.pdb
+
+# Docs stuff
+Docs/.obsidian/graph.json
+Docs/.obsidian/workspace.json
+
+# Runtime stuff
+Logs
